@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/dashboard.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huza</title>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <main>
+    <div class="sidebar" id="side">
+        <div class="logo-details">
+            <i style="transition:all 0.3s;" href="javascript:void(0)" class='bx bx-menu' onclick="openNav()"></i>
+            <a href="/landingpage.html"><span class="logo_name">Huza</span></a>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="/dashboard.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link_name">IMBONERAHAMWE</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">IMBONERAHAMWE</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-links">
+                    <a href="#">
+                        <i class='bx bxs-collection'></i>
+                        <span class="link_name">IBIBAZO</span>
+                    </a>
+                    <i class='bx bxs-chevron-down-circle arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="studying.html">IBIBAZO</a></li>
+                    <li><a href="studying.html">ubuhunzi</a></li>
+                    <li><a href="studying.html">urupfu</a></li>
+                    <li><a href="studying.html">ubwne</a></li>
+                    <li><a href="studying.html">Ubujura</a></li>
+                    <li><a href="studying.html">Ihohoterwa</a></li>
+                    <li><a href="studying.html">Urugomo</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-links">
+                    <a href="#">
+                        <i class='bx bx-book-alt'></i>
+                        <span class="link_name">IBYAKIRIWE</span>
+                    </a>
+                        <i class='bx bxs-chevron-down-circle arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">IBYAKIRIWE</a></li>
+                    <li><a href="#">ibyasubijwe</a></li>
+                    <li><a href="#">ibitarasubizwa</a></li>
+                    <li><a href="#">kujurira</a></li>
+
+                    
+                </ul>
+            </li>
+            
+            <li>
+                <div class="iocn-links">
+                    <a href="#">
+                        <i class='bx bxs-chat'></i>
+                        <span class="link_name">IBYOHEREJWE</span>
+                    </a>
+                        <i class='bx bxs-chevron-down-circle arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">IBYOHEREJWE</a></li>
+                    <li><a href="#" onclick="incrementData()">RIB</a></li>
+                    <li><a href="#">ABUNZI</a></li>
+                    <li><a href="#">ISANGE</a></li>
+                    <li><a href="#">AKAGARI</a></li>
+                    <li><a href="#">AHANDI</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-pie-chart'></i>
+                    <span class="link_name">IGERERANYA</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li>
+                        <a class="link_name" href="#">IGERERANYA</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-check-square'></i>
+                    <span class="link_name">RAPORO</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li>
+                        <a class="link_name" href="#">RAPORO</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="/login.html">
+                    <i class='bx bx-user'></i>
+                    <span class="link_name">UMUTURAGE</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li>
+                        <a class="link_name" href="#">UMUTURAGE</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-calendar-alt'></i>
+                    <span class="link_name">KALINDARI</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li>
+                        <a class="link_name" href="#">KALINDARI</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">IGENAMITERERE</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li>
+                        <a class="link_name" href="#">IGENAMITERERE</a>
+                    </li>
+                </ul>
+            </li>
+            <li></ul>
+                <div class="profile-details">
+                    <div class="profile-content">
+                        <img src="image.PNG" alt="profile">
+                </div>
+                    
+                        <div class="name-job">
+                            <div class="profile_name">AMAZINA</div>
+                            <div class="job">umukuru</div>
+                        </div>
+                        <i class='bx bx-log-out' ></i>
+       
+        
+            </div></div>
+
+            <section style="display: block; transition:all 0.3s;" class="combination" id="page" onclick="closeNav()">
+                <section class="home-section">
+                    <div class="nav_bar">
+                            <div class="serch-engine">
+                                <table class="elementsContainer">
+                                    <tr>
+                                        <td>
+                                            <input type="text" placeholder="SHAKISHA" class="search">
+                                        </td>
+                                        <td>
+                                            <a href="#"><i class='bx bx-search-alt-2'></i></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                </section>
+                <section class="dashboard">
+                    <div class="top">
+                        
+                    </div>
+                </section>
+                    <div class="dash-content">
+                        <div class="overview">
+                                    <div class="title">
+                                        <i class='bx bxs-dashboard'></i>    
+                                        <span class="text">IMBONERAHAMWE</span>
+                                    </div>
+                                <div class="boxes">
+                                    <div class="box box1">
+                                        <i class='bx bx-like'></i>
+                                        <span class="text">Akagari</span>
+                                        <span class="number" id="akagari">50,120</span>
+                                    </div>
+                                    <div class="box box2">
+                                        <i class='bx bxs-chat'></i>
+                                        <span class="text">RIB</span>
+                                        <p class="number" id="rib">0</p>
+                                    </div>
+                                    <div class="box box3">
+                                        <i class='bx bx-share-alt'></i>
+                                        <span class="text">solve</span>
+                                        <span class="number" id="solved">50,120</span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="activity">
+                            <div class="title">
+                                <i class='bx bx-time'></i>   
+                                <span class="text">IBIBAZO BYOSE</span>
+                            </div>
+                            <div class="activity-data">
+                                <div class="data name">
+                                    <span class="data-title">name</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                    <span class="data-list">BILLY Charmant</span>
+                                </div>
+                                <div class="data email">
+                                    <span class="data-title">Email</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                    <span class="data-list">billycharmant541@gmail.com</span>
+                                </div>
+                                <div class="data joined">
+                                    <span class="data-title">Joined</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                    <span class="data-list">2022-02-12</span>
+                                </div>
+                                <div class="data type">
+                                    <span class="data-title">Type</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                    <span class="data-list">New</span>
+                                </div>
+                                <div class="data status" id="results">
+                                    <span class="data-title">Status</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">Liked</span>
+                                    <span class="data-list">fgghjk</span>
+                                <!-- </div>
+                                welcome.... <span id="results"></span>!
+                            </div> -->
+                        </div>        
+                    </div>
+                </section>
+            </section>
+   </main>
+        
+    
+    
+    <script>
+        let arrow = document.querySelectorAll(".arrow");
+        
+        for (var i=0; i < arrow.length; i++){
+            arrow[i].addEventListener("click", (e)=>{
+                let arrowParent = e.target.parentElement.parentElement;
+                arrowParent.classList.toggle("showMenu");
+            });
+        }
+
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".bx-menu");
+
+        console.log(sidebarBtn);
+        sidebarBtn.addEventListener("click", ()=>{
+            sidebar.classList.toggle("close");
+            
+
+
+        });
+
+    </script>
+        <script>
+            document.getElementById("results").innerHTML=localStorage.getItem("textItem");
+        </script>
+        <script src="gitifu.js"></script>
+</body>
+</html>
